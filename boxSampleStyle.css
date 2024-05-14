@@ -44,17 +44,28 @@
     width: 354px;
     height: 182px;
     margin-bottom: 20px; /* Add margin between boxes */
-    background: url("../images/v82_66.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: relative;
     overflow: hidden;
-    background-color: black;
+    background-color: #F2F2F2;
+    border: rgb(208, 208, 208) solid 1px;
+    border-radius: 7px;
 }
 
-.banner-img, .down {
+.right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: url('images/pizza_hut.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.down {
     width: 353px;
     height: 182px;
     background-size: cover;
@@ -64,10 +75,6 @@
     left: 0px;
     border-radius: 10px;
     overflow: hidden;
-}
-
-.banner-img {
-    background-image: url("images/brancepic.png");
 }
 
 .rate-box {
@@ -93,12 +100,14 @@
     width: 30px;
     top: 0;
     left: 116px;
+    color: rgb(85, 85, 85);
 }
 
 .reviews {
     width: 40px;
     top: 0;
     left: 139px;
+    color: rgb(85, 85, 85);
 }
 
 .rates {
@@ -109,6 +118,7 @@
     top: 0px;
     left: 0px;
     overflow: hidden;
+    color: rgb(85, 85, 85);
 }
 
 .star1, .star2, .star3, .star4, .star5 {
@@ -150,12 +160,14 @@
 }
 
 .status {
-    width: 117px;
-    color: rgba(214,199,138,1);
-    top: 130px;
-    left: 255px;
-    font-size: 17px;
+    width: 60px;
+    color: rgb(52, 52, 52);
+    top: 151px;
+    left: 285px;
+    font-size: 14px;
     font-weight: 700;
+    background-color: white;
+    padding: 3px;
 }
 
 .total-text .total-branches-text {
@@ -174,7 +186,7 @@
     left: 5px;
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: rgb(53, 53, 53);
 }
 
 .starting-price {
@@ -183,7 +195,7 @@
     left: -67px;
     font-size: 12px;
     font-weight: 600;
-    color: rgb(218, 218, 218);
+    color: rgb(85, 85, 85);
     margin-top: 5px;
 }
 
@@ -193,7 +205,7 @@
     right: 80px;
     font-size: 12px;
     font-weight: 600;
-    color: rgb(218, 218, 218);
+    color: rgb(85, 85, 85);
     margin-top: 5px;
 }
 
@@ -203,6 +215,6 @@
     right: 86px;
     font-size: 12px;
     font-weight: 600;
-    color: rgb(218, 218, 218);
+    color: rgb(85, 85, 85);
     margin-top: 5px;
 }
